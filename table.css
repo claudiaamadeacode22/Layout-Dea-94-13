@@ -1,0 +1,118 @@
+/* STYLE PADA TABLE */
+body.tablepage {
+    background-image: url("ASSETS/Bg\ Image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title-wrap.small h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    padding: 10px 20px;
+    -webkit-text-stroke: 2px #005499;
+    text-shadow: 3px 4px 2px rgb(0 0 0 / .42);
+}
+
+.title-wrap.small h1 span {
+    font-size: inherit;
+}
+
+.title-wrap.small .blue,
+.title-wrap.small .pink {
+    font-size: 1.4em;
+    font-family: "Amoresa", cursive;
+}
+
+.title-wrap.small .blue1,
+.title-wrap.small .pink1 {
+    font-size: 1em;
+    -webkit-text-stroke-width: 2px;
+}
+
+.title-wrap.small .pink1,
+.title-wrap.small .pink {
+    -webkit-text-stroke-color: #5e0033;
+}
+
+.word-space {
+    display: inline-block;
+    width: .3em;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+th,td{
+    padding: 5px;
+}
+
+tr{
+    background: linear-gradient(180deg, #ffc4e1 0%, #ff90cd 100%);
+}
+
+tr:nth-child(even){
+    background: linear-gradient(180deg, #ffdded 0%, #fff8fc 100%);
+}
+
+tr:hover{
+    background: linear-gradient(180deg, #a1c6ff 0%, #cadfff 100%);
+}
+
+.table2 { 
+    margin: 20px auto;
+    border: 1px solid white;
+    background: linear-gradient(180deg, #b879ff 0%, #ffc5e6 100%);
+    border-collapse: separate;
+    border-spacing: 5px;
+    table-layout: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a { width: 60px; }
+.b { width: 55px; }
+.c { width: 55px; }
+.d { width: 55px; }
+.e { width: 55px; }
+.f { width: 25px; }
+.g { width: 35px; }
+.h { width: 55px; }
+.i { width: 35px; }
+
+.table2 td { 
+    border: none;
+    padding: 0;
+    background-color: #30006c;
+    color: #f6ffe9;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.table2 td.magenta {
+    background-color: #d40083;
+}
+.table2 td:hover {
+    background-color: #e283ff;
+    color: #ffffff;
+    transform: scale(1.08);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.table2 td.magenta:hover {
+  background-color: #ff70a0;
+  color: #ffffff;
+}

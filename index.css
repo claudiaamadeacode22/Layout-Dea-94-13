@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* Design Header */
+.header {
+    padding: 0;
+    background: none;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Design Top Navbar */
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(180deg, #fff1d3 0%, #ffe3e3 100%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+/* Design Topnav Link */
+.topnav a {
+    float: left;
+    display: block;
+    color: #b2007d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background: linear-gradient(180deg, #ffe4a9 0%, #ffc7c7 100%);
+    color:#b2007d;
+}
+/* Style pada Content */
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Design footer */
+.footer {
+    background: linear-gradient(180deg, #ffd579 0%, #ffa9a9 100%);
+    padding: 6px;
+    text-align: center;
+}
+
+ol{
+    list-style-type: upper-latin;
+}
